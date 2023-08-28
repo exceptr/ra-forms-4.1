@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hex {
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rgb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    text-align: center;
+}
