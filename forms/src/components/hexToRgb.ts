@@ -24,9 +24,4 @@ const hexToRgb = (hex: string): string | null => {
     return `rgb(${r}, ${g}, ${b})`;
   };
   
-  // Example usage
-  const hexColor = "#FF0000";
-  const rgbColor = hexToRgb(hexColor);
-  console.log(rgbColor); // Output: rgb(255, 0, 0)
-  
   export default hexToRgb
